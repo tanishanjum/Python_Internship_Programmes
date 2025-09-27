@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Underground Water Leakage Detection</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #00509e;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    .content-box {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #003366;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Smart Underground Water Leakage Detection</h1>
+  <p>An IoT-based real-time monitoring system using ESP32 and sensors</p>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#components">Components</a>
+  <a href="#working">Working</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="overview">
+  <div class="content-box">
+    <h2>Project Overview</h2>
+    <p>This project addresses the critical problem of undetected underground water leakages, which lead to resource waste and infrastructure damage. It uses multiple sensors (flow, pressure, moisture, vibration) integrated with an ESP32 microcontroller. The system provides real-time monitoring and sends alerts via Wi-Fi to notify users of any detected leakages.</p>
+  </div>
+</section>
+
+<section id="components">
+  <div class="content-box">
+    <h2>Hardware Components</h2>
+    <ul>
+      <li>ESP32 Core Microcontroller</li>
+      <li>YF-S201 Water Flow Sensor</li>
+      <li>BMP280 Pressure Sensor</li>
+      <li>Capacitive Soil Moisture Sensor</li>
+      <li>SW-420 Vibration Sensor</li>
+      <li>Mini Submersible Water Pump (Testing)</li>
+      <li>Relay Module, Buzzer, LEDs (Alerts)</li>
+      <li>Wi-Fi for Alert Transmission</li>
+      <li>Battery Pack and Enclosure Box</li>
+    </ul>
+  </div>
+</section>
+
+<section id="working">
+  <div class="content-box">
+    <h2>Working Principle</h2>
+    <p>The system constantly collects data from the sensors and analyzes it using threshold logic on the ESP32. If any anomaly indicating a potential leak is detected, it triggers a local buzzer/LED and sends a remote alert via Wi-Fi. This enables early detection and quick response, minimizing water loss and system damage.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="content-box">
+    <h2>Contact</h2>
+    <p>For inquiries or collaborations:</p>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Smart Water Detection Project Team</p>
+</footer>
+
+</body>
+</html>
